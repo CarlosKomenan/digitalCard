@@ -13,8 +13,8 @@ class MyAppBar extends StatelessWidget implements PreferredSizeWidget {
     return AppBar(
         // automaticallyImplyLeading: false,
         elevation: 0,
-        backgroundColor: Colors.white.withOpacity(0),
-        centerTitle: false,
+        // backgroundColor: Colors.white.withOpacity(0),
+        // centerTitle: false,
         title: Row(
           children: [
             Text(
